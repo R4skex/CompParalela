@@ -1,9 +1,11 @@
-# Lab02 - Programação matriz-vetor!
+# Lab02
 
 Este é o README para o "Lab02 - Programação matriz-vetor!", desenvolvido em linguagem C. Este documento contém instruções detalhadas sobre como compilar, executar e verificar os resultados do programa entregue.
 
 ## Integrantes do grupo
 Daniel Reis Raske
+Cesar Hideki Imai
+João Victor Dallapé Madeira
 
 ## Como Compilar
 
@@ -22,7 +24,7 @@ Após compilar o programa, siga estas etapas para executá-lo:
 ## Resultados
 O resultado esperado (multiplicação correta de matrizes) para esta atividade foi alcançado. Para comprovar que nosso código foi compilado e executado no ambiente da AWS (conforme solicitado pelo professor), apresentamos a seguinte imagem:
 
-![Lab02a](https://github.com/R4skex/CompParalela/issues/1#issue-2182915710)
+![lab 2 CP](https://github.com/R4skex/CompParalela/assets/125515277/a1bcfbfc-fa2d-486e-bff0-d9eeb6390c8e)
 
 
 
