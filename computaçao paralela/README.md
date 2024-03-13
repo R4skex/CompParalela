@@ -3,9 +3,9 @@
 Este é o README para o "Lab02 - Programação matriz-vetor!", desenvolvido em linguagem C. Este documento contém instruções detalhadas sobre como compilar, executar e verificar os resultados do programa entregue.
 
 ## Integrantes do grupo
-Daniel Reis Raske
-Cesar Hideki Imai
-João Victor Dallapé Madeira
+- Daniel Reis Raske
+- Cesar Hideki Imai
+- João Victor Dallapé Madeira
 
 ## Como Compilar
 
