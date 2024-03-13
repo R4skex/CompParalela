@@ -22,8 +22,8 @@ Após compilar o programa, siga estas etapas para executá-lo:
 ## Resultados
 O resultado esperado (multiplicação correta de matrizes) para esta atividade foi alcançado. Para comprovar que nosso código foi compilado e executado no ambiente da AWS (conforme solicitado pelo professor), apresentamos a seguinte imagem:
 
-![Lab02a](https://github.com/nicolasmelnik/Laboratorios-Paralela/assets/117850844/923aa5a9-f121-4efe-af67-cd9eb15ea2f4)
+![Lab02a](https://github.com/R4skex/CompParalela/issues/1#issue-2182915710)
 
-Para visualizar a saída do código, basta olhar o arquivo `resultado.txt`, pois fica melhor a visualização da Matriz resultado. Abaixo, temos uma imagem que serve como comprovação que nosso resultado está correto, pois utilizamos uma calculadora de matrizes online, onde digitamos a matriz A e elevamos ela ao quadrado. Elevamos ela ao quadrado, pois como a matriz B é idêntica a matriz A, é obtido o mesmo resultado, ou seja, AxB é igual a A^2.
 
-![Lab02b](https://github.com/nicolasmelnik/Laboratorios-Paralela/assets/117850844/e77efbff-e1a5-4388-96c4-1043629b2a62)
+
+
