@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-#define m 2
-#define n 2
-#define thread_count 1
+#define m 1000
+#define n 1000
+#define thread_count 100
 
 double A[m][n];
 double x[n];
@@ -18,7 +18,7 @@ void *Pth_mat_vect(void* rank) {
     int my_last_row = (my_rank + 1) * local_m - 1;
 
     for (i = my_first_row; i <= my_last_row; i++) {
-        y[i] = 0.0;
+        y[i] = 0;
         for (j = 0; j < n; j++) {
             y[i] += A[i][j] * x[j];
             // Imprimir a linha de multiplicação com os valores de A e x
@@ -33,13 +33,17 @@ int main() {
     pthread_t threads[thread_count];
     long i;
 
-    // Preencher com valores de exemplo a matriz A e o vetor x.
+    // Preencher com valores de exemplo a matriz A
     for (i = 0; i < m; i++) {
         for (long j = 0; j < n; j++) {
-            A[i][j] = 2.0 * j; 
+            A[i][j] = i + j + 1; 
         }
-        x[i] = 3.0; // Preencher com valores de exemplo
     }
+    
+    for (int i = 0; i < n; i++) {  // Preencher vetor x
+        x[i] = i + 1;
+    }
+    
 
     // Criar as threads e executar a função Pth_mat_vect.
     for (i = 0; i < thread_count; i++) {
