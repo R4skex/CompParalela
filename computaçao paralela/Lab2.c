@@ -21,8 +21,7 @@ void *Pth_mat_vect(void* rank) {
         y[i] = 0;
         for (j = 0; j < n; j++) {
             y[i] += A[i][j] * x[j];
-            // Imprimir a linha de multiplicação com os valores de A e x
-            printf("Thread %ld: y[%d] += %lf * %lf\n", my_rank, i, A[i][j], x[j]);
+
         }
     }
 
@@ -54,12 +53,8 @@ int main() {
     for (i = 0; i < thread_count; i++) {
         pthread_join(threads[i], NULL);
     }
-
-    // Agora, o vetor y contém o resultado da multiplicação da matriz A pelo vetor x.
-    printf("\n");
-    for (i = 0; i < m; i++) {
-        printf("y[%ld] = %lf\n", i, y[i]);
-    }
+  
+    
 
     return 0;
 }
